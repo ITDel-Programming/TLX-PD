@@ -1,12 +1,18 @@
 #include <stdio.h>
 
  int main(){
-     char input[101];
+     int N, B;
+     int result = 0;
 
-     while (scanf("%s",input) != EOF)
+     scanf("%d", &N);
+
+     for (int i = 0; i < N; i++)
      {
-         printf("%s\n", input);
+         scanf("%d", &B);
+         result += B;
      }
+     
+    printf("%d\n", result);
 
      return 0;
 }
