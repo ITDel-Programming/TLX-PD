@@ -1,5 +1,7 @@
 # TLX-PD
 
+folder name format `usernameTlx`, ex: `cloud17`
+
 file name format `usernameTlx-prob.cpp`, ex: `polan113-A.ccp`
 
 tiap orang punya branch masing-masing yak, nama branch nya disamaain aja kayak username tlxnya hehehe
